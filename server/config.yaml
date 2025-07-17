@@ -7,7 +7,7 @@ aliyun-oss:
     base-path: yourBasePath
 autocode:
     web: web/src
-    root: D:\Projects\Go\gin-vue-admin
+    root: /Users/sigmaxu/Documents/Project/gin-vue-admin
     server: server
     module: github.com/flipped-aurora/gin-vue-admin/server
     ai-path: ""
@@ -84,7 +84,7 @@ hua-wei-obs:
     access-key: you-access-key
     secret-key: you-secret-key
 jwt:
-    signing-key: aa114301-5cf5-4f5f-95ba-5352d951031d
+    signing-key: 180b4b9b-7615-41ed-a8b0-dc994cfb207a
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
@@ -142,9 +142,9 @@ mysql:
     prefix: ""
     port: "3306"
     config: charset=utf8mb4&parseTime=True&loc=Local
-    db-name: gva
-    username: mhassan
-    password: P@$$w0rD
+    db-name: chubb
+    username: root
+    password: password
     path: 127.0.0.1
     engine: ""
     log-mode: error
