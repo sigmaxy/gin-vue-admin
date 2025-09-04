@@ -48,23 +48,6 @@
                     </el-button>
                   </div>
                 </div>
-
-                <div
-                  class="flex flex-col lg:flex-row items-start lg:items-center gap-4 lg:gap-8 text-gray-500 dark:text-gray-400"
-                >
-                  <div class="flex items-center gap-2">
-                    <el-icon><location /></el-icon>
-                    <span>中国·北京市·朝阳区</span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <el-icon><office-building /></el-icon>
-                    <span>北京翻转极光科技有限公司</span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <el-icon><user /></el-icon>
-                    <span>技术部·前端事业群</span>
-                  </div>
-                </div>
               </div>
 
               <div class="flex gap-4 mt-4">
@@ -82,7 +65,7 @@
     <!-- 主要内容区 -->
     <div class="grid lg:grid-cols-12 md:grid-cols-1 gap-8">
       <!-- 左侧信息栏 -->
-      <div class="lg:col-span-4">
+      <div class="lg:col-span-6">
         <div
           class="bg-white dark:bg-slate-800 rounded-xl p-6 mb-6 profile-card"
         >
@@ -145,6 +128,18 @@
             技能特长
           </h2>
           <div class="flex flex-wrap gap-2">
+            <div class="flex items-center gap-1 lg:gap-3 text-gray-600 dark:text-gray-300">
+              <span class="font-medium">Agent's Code: </span>
+              <span>已设置</span>
+              <el-button
+                link
+                type="primary"
+                class="ml-auto"
+                @click="showPassword = true"
+              >
+                修改
+              </el-button>
+            </div>
             <el-tag effect="plain" type="success">GoLang</el-tag>
             <el-tag effect="plain" type="warning">JavaScript</el-tag>
             <el-tag effect="plain" type="danger">Vue</el-tag>
@@ -154,81 +149,6 @@
               添加技能
             </el-button>
           </div>
-        </div>
-      </div>
-
-      <!-- 右侧内容区 -->
-      <div class="lg:col-span-8">
-        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 profile-card">
-          <el-tabs class="custom-tabs">
-            <el-tab-pane>
-              <template #label>
-                <div class="flex items-center gap-2">
-                  <el-icon><data-line /></el-icon>
-                  数据统计
-                </div>
-              </template>
-              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 py-6">
-                <div class="stat-card">
-                  <div
-                    class="text-2xl lg:text-4xl font-bold text-blue-500 mb-2"
-                  >
-                    138
-                  </div>
-                  <div class="text-gray-500 text-sm">项目参与</div>
-                </div>
-                <div class="stat-card">
-                  <div
-                    class="text-2xl lg:text-4xl font-bold text-green-500 mb-2"
-                  >
-                    2.3k
-                  </div>
-                  <div class="text-gray-500 text-sm">代码提交</div>
-                </div>
-                <div class="stat-card">
-                  <div
-                    class="text-2xl lg:text-4xl font-bold text-purple-500 mb-2"
-                  >
-                    95%
-                  </div>
-                  <div class="text-gray-500 text-sm">任务完成</div>
-                </div>
-                <div class="stat-card">
-                  <div
-                    class="text-2xl lg:text-4xl font-bold text-yellow-500 mb-2"
-                  >
-                    12
-                  </div>
-                  <div class="text-gray-500 text-sm">获得勋章</div>
-                </div>
-              </div>
-            </el-tab-pane>
-            <el-tab-pane>
-              <template #label>
-                <div class="flex items-center gap-2">
-                  <el-icon><calendar /></el-icon>
-                  近期动态
-                </div>
-              </template>
-              <div class="py-6">
-                <el-timeline>
-                  <el-timeline-item
-                    v-for="(activity, index) in activities"
-                    :key="index"
-                    :type="activity.type"
-                    :timestamp="activity.timestamp"
-                    :hollow="true"
-                    class="pb-6"
-                  >
-                    <h3 class="text-base font-medium mb-1">
-                      {{ activity.title }}
-                    </h3>
-                    <p class="text-gray-500 text-sm">{{ activity.content }}</p>
-                  </el-timeline-item>
-                </el-timeline>
-              </div>
-            </el-tab-pane>
-          </el-tabs>
         </div>
       </div>
     </div>
