@@ -22,10 +22,10 @@ aws-s3:
     s3-force-path-style: false
     disable-ssl: false
 captcha:
-    key-long: 6
+    key-long: 4
     img-width: 240
     img-height: 80
-    open-captcha: 0
+    open-captcha: 100
     open-captcha-timeout: 3600
 cloudflare-r2:
     bucket: xxxx0bucket

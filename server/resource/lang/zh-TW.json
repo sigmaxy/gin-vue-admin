@@ -327,7 +327,7 @@
         "categoryList": "分類列表",
         "addEditCategory": "新增/編輯分類",
         "deleteCategory": "刪除分類"
-      },
+      ,"adduser_extraUserExtra":"adduser extra info","deleteuser_extraUserExtra":"deleteuser extra info","batchuser_extraUserExtra":"batchuser extra info","updateuser_extraUserExtra":"updateuser extra info","finduser_extraUserExtra":"finduser extra info","listuser_extraUserExtra":"listuser extra info"},
       "group": {
         "announcement": "公告",
         "api": "API",
@@ -351,7 +351,7 @@
         "templateConfiguration": "模板配置",
         "parameterManagement": "參數管理",
         "mediaLibraryCategories": "媒體庫分類"
-      }
+      ,"user_extraUserExtra":"user extra info"}
     },
     "authority": {
       "normalUserSubRole": "普通用戶子角色",
@@ -418,7 +418,7 @@
       "menuID": "菜單ID",
       "parameterManagement" : "參數管理",
       "": ""
-    }
+    ,"user_extraUserExtra":"user extra info"}
   },
   "announcement": {
     "publicAnnouncementAPI": "不需要鑒權的公告接口信息",

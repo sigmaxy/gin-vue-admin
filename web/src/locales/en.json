@@ -1229,4 +1229,4 @@
       "vitePluginDefinition": "Vite plugin definition"
     }
   }
-}
+,"user_extra":{"UserExtra":{"Id":"id","SysUserId":"系统用户 ID","AgentCode":"agentCode字段","AgentName":"agentName字段","ServiceType":"serviceType字段","UccId":"uccId字段"}}}

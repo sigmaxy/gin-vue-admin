@@ -318,7 +318,7 @@
                 "categoryList": "قائمة الفئات",
                 "addEditCategory": "إضافة/تعديل الفئة",
                 "deleteCategory": "حذف الفئة"
-            },
+            ,"finduser_extraUserExtra":"finduser extra info","listuser_extraUserExtra":"listuser extra info","adduser_extraUserExtra":"adduser extra info","deleteuser_extraUserExtra":"deleteuser extra info","batchuser_extraUserExtra":"batchuser extra info","updateuser_extraUserExtra":"updateuser extra info"},
             "group": {
                 "announcement": "الإعلان",
                 "api": "API",
@@ -342,7 +342,7 @@
                 "templateConfiguration": "تكوين القالب",
                 "parameterManagement": "إدارة البراميترات",
                 "mediaLibraryCategories": "فئات مكتبة الوسائط"
-            }
+            ,"user_extraUserExtra":"user extra info"}
         },
         "authority": {
             "normalUserSubRole": "عادي المستخدم subrole",
@@ -407,7 +407,7 @@
             "buttonComment": "تعليق الزر",
             "menuID": "معرف القائمة",
             "parameterManagement" : "إدارة البراميترات"
-        }
+        ,"user_extraUserExtra":"user extra info"}
     },
     "announcement": {
         "publicAnnouncementAPI": "معلومات واجهة الإعلان التي لا تتطلب مصادقة",

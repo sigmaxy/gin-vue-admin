@@ -356,7 +356,7 @@
                 "deleteSysDictionaryDetail": "删除SysDictionaryDetail",
                 "batchDeleteSysDictionaryDetail": "批量删除SysDictionaryDetail",
                 "getSysDictionaryDetailById": "根据ID获取SysDictionaryDetail"
-            },
+            ,"updateuser_extraUserExtra":"updateuser extra info","finduser_extraUserExtra":"finduser extra info","listuser_extraUserExtra":"listuser extra info","adduser_extraUserExtra":"adduser extra info","deleteuser_extraUserExtra":"deleteuser extra info","batchuser_extraUserExtra":"batchuser extra info"},
             "group": {
                 "announcement": "公告",
                 "api": "API",
@@ -380,7 +380,7 @@
                 "templateConfiguration": "模板配置",
                 "parameterManagement": "参数管理",
                 "mediaLibraryCategories": "媒体库分类"
-            }
+            ,"user_extraUserExtra":"user extra info"}
         },
         "authority": {
             "normalUserSubRole": "普通用户子角色",
@@ -446,7 +446,7 @@
             "buttonComment": "按钮备注",
             "menuID": "菜单ID",
             "parameterManagement": "参数管理"
-        }
+        ,"user_extraUserExtra":"user extra info"}
     },
     "announcement": {
         "publicAnnouncementAPI": "不需要鉴权的公告接口信息",

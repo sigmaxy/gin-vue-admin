@@ -1,4 +1,3 @@
 package user_extra
 
-type ServiceGroup struct {
-}
+type ServiceGroup struct{ UserExtraService }

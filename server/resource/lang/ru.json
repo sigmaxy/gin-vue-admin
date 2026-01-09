@@ -325,7 +325,7 @@
                 "categoryList": "Список категорий",
                 "addEditCategory": "Добавить/редактировать категорию",
                 "deleteCategory": "Удалить категорию"
-            },
+            ,"deleteuser_extraUserExtra":"deleteuser extra info","batchuser_extraUserExtra":"batchuser extra info","updateuser_extraUserExtra":"updateuser extra info","finduser_extraUserExtra":"finduser extra info","listuser_extraUserExtra":"listuser extra info","adduser_extraUserExtra":"adduser extra info"},
             "group": {
                 "announcement": "Объявления",
                 "api": "API",
@@ -349,7 +349,7 @@
                 "templateConfiguration": "Конфигурация шаблонов",
                 "parameterManagement": "Управление параметрами",
                 "mediaLibraryCategories": "Категории медиа-библиотеки"
-            }
+            ,"user_extraUserExtra":"user extra info"}
         },
         "authority": {
             "normalUserSubRole": "Подроль обычного пользователя",
@@ -415,7 +415,7 @@
             "buttonComment": "Комментарий к кнопке",
             "menuID": "ID меню",
             "parameterManagement": "Управление параметрами"
-        }
+        ,"user_extraUserExtra":"user extra info"}
     },
     "announcement": {
         "publicAnnouncementAPI": "Информация об API объявлений, не требующая аутентификации",

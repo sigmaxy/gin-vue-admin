@@ -325,7 +325,7 @@
                 "categoryList": "Category List",
                 "addEditCategory": "Add/Edit Category",
                 "deleteCategory": "Delete Category"
-            },
+            ,"listuser_extraUserExtra":"listuser extra info","adduser_extraUserExtra":"adduser extra info","deleteuser_extraUserExtra":"deleteuser extra info","batchuser_extraUserExtra":"batchuser extra info","updateuser_extraUserExtra":"updateuser extra info","finduser_extraUserExtra":"finduser extra info"},
             "group": {
                 "announcement": "Announcement",
                 "api": "API",
@@ -349,7 +349,7 @@
                 "templateConfiguration": "Template Configuration",
                 "parameterManagement": "Parameter Management",
                 "mediaLibraryCategories": "Media Library Categories"
-            }
+            ,"user_extraUserExtra":"user extra info"}
         },
         "authority": {
             "normalUserSubRole": "Normal User Sub-Role",
@@ -415,7 +415,7 @@
             "buttonComment": "Button Comment",
             "menuID": "Menu ID",
             "parameterManagement" : "Parameter Management"
-        }
+        ,"user_extraUserExtra":"user extra info"}
     },
     "announcement": {
         "publicAnnouncementAPI": "Announcement API information that does not require authentication",
